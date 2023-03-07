@@ -1,0 +1,51 @@
+-----come collegarsi ad una cartella in remoto
+
+git clone (url della cartella in remoto)
+
+---! ti chiedera usurname e password ma la password è un token che devi generare da git hub.it (token classic) ed assicurati di aver fatto il check alle repository
+
+---per fare dei cambiamenti prima committarli e poi fare 
+
+git push
+
+
+---per evitare di mettere le credenziali N volte puoi usare una chiave ssh oppure questo comando che ti tiene attive le credenziali per 15 mi
+
+
+ git config --global credential.helper cache
+
+git push
+
+
+--- per rendere la repository locale con lo stesso commit di una in remoto fare
+
+git pull
+
+
+-- se vogliamo cambiare delle cose ne branch remoto dobbiamo seguire i seguenti passaggi
+
+Pull the remote branch, merge it with the local branch, then push it back to its origin.
+
+
+
+---se voglio vedere i commit fatti nel branch in remoto
+
+git log origin/main
+
+
+---se voglio salvare i commit fatti in remoto
+
+git fetch
+
+git merge origin/main (main o nome del branches)
+
+
+
+-----oppure
+
+git pull
+
+
+---per vedere le differenze degli update 
+
+git log -p -1 
