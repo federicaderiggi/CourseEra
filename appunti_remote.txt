@@ -21,6 +21,10 @@ git push
 
 git pull
 
+---- come creare un nuovo branch
+git checkout -b NewBranch
+-- come attaccate il nuovo branch alla repository remota
+ git push -u origin NewBranch
 
 -- se vogliamo cambiare delle cose ne branch remoto dobbiamo seguire i seguenti passaggi
 
