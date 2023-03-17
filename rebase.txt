@@ -1,0 +1,6 @@
+REBASE
+
+
+rebase è il comando che ci aiuta a tenere la storia dei commit lineari
+
+
